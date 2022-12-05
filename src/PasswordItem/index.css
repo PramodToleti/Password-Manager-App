@@ -1,0 +1,137 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.password-details-container {
+  border: 1px solid #7683cb;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  height: 130px;
+  margin-bottom: 20px;
+  background-color: #ffffff30;
+}
+
+.password-details-container:hover {
+  box-shadow: 0px 5px 20px 0px rgb(166, 153, 235);
+}
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+  .password-details-container {
+    width: 49%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .password-details-container {
+    min-width: 290px;
+    max-width: 350px;
+  }
+}
+
+.main-details {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 150px;
+}
+
+.user-profile-icon {
+  width: 60px;
+  height: 60px;
+  color: #ffffff;
+  display: grid;
+  place-items: center;
+  border-radius: 100%;
+  margin-top: 0px;
+  flex-shrink: 0;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+.website-password-details::-webkit-scrollbar {
+  width: 0;
+}
+
+.website-name {
+  background-image: linear-gradient(
+    to right,
+    rgb(163, 225, 233),
+    rgb(185, 223, 228),
+    rgb(131, 219, 219)
+  );
+  background-clip: text;
+  color: transparent;
+  font-family: 'Roboto';
+  font-size: 21px;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.username {
+  color: #b6c3ca;
+  font-family: 'Roboto';
+  font-size: 17px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+.password {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+  margin-left: 6px;
+  margin-right: 4px;
+}
+
+.delete-icon {
+  width: 30px;
+  transition: all 0.2s linear;
+}
+
+.delete-icon:hover {
+  transform: scale(1.2);
+}
+
+.stars-image {
+  width: 150px;
+  margin-top: 8px;
+}
